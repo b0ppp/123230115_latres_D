@@ -122,10 +122,10 @@ class ProfilePage extends StatelessWidget {
                   ),
                 ],
               ),
-              child: Column(
+              child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(
+                  Text(
                     'Tentang Saya',
                     style: TextStyle(
                       fontSize: 15,
@@ -133,13 +133,13 @@ class ProfilePage extends StatelessWidget {
                       color: Color(0xFF4A90D9),
                     ),
                   ),
-                  const Divider(height: 20),
-                  const Text(
-                    'Halo! Saya adalah mahasiswa IF-D yang sedang belajar Flutter. '
+                  Divider(height: 20),
+                  Text(
+                    'Halo! Saya T.M. Kalladara Raja Lingga AS, dengan NIM 123230115. \n\n'
                     'Aplikasi ini dibuat sebagai latihan responsi untuk memahami '
                     'konsep state management dengan GetX, local storage dengan Hive '
                     'dan Shared Preferences, serta integrasi API eksternal. '
-                    'Semoga latihan responsi ini bisa berjalan dengan lancar! 🚀',
+                    'Bismillah 100 ^^',
                     style: TextStyle(
                       fontSize: 14,
                       height: 1.6,
